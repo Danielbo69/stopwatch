@@ -56,3 +56,21 @@
 .btn-reset:hover {
     background-color: rgb(255, 255, 0);
 }
+
+@media screen and (max-width: 425px) {
+    .btn {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .btn {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .btn {
+        width: 165px;
+    }
+}

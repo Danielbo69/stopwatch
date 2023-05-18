@@ -3,7 +3,7 @@ import Display from "./components/Display/Display";
 import { useState} from "react";
 
 function App() {
-  const times = {h:0, m:0, s:0, ms:0};
+  const times = {h:0, m:59, s:58, ms:0};
   const [time, setTime] = useState(times);
   const [interv, setInterv] = useState();
   const [status, setStatus] = useState(0);
