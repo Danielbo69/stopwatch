@@ -26,6 +26,7 @@
 .content {
     background-color: #fff;
     color: #000;
+    padding: 20px;
 }
 
 @media screen and (max-width: 428px) {

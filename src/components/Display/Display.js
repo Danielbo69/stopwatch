@@ -4,13 +4,6 @@ import './Display.css';
 
 function Display(props) {
     const {time, start, resume, stop, reset, status} = props;
-    // const hours = () => {
-    //   if(time.h === 0){
-    //     return '';
-    //   } else {
-    //     return 
-    //   }
-    // }
     return (
       <div className="main-section">
       <div className="numbers">
