@@ -2,7 +2,7 @@ import React from "react";
 import "./Buttons.css";
 
 function Buttons(props) {
-  const { start, resume, stop, reset, status } = props;
+  const { start, resume, stop, reset, lap, status } = props;
 
   return (
     <>
@@ -18,8 +18,8 @@ function Buttons(props) {
           <button className="btn btn-stop" onClick={stop}>
             Stop
           </button>
-          <button className="btn btn-reset" onClick={reset}>
-            Reset
+          <button className="btn btn-reset" onClick={lap}>
+            Lap
           </button>
         </div>
       ) : (

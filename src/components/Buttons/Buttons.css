@@ -22,7 +22,7 @@
 }
 
 .btn-start {
-    color: rgb(0, 255, 0);
+    color: #fff;
     border: 1px solid rgb(0, 255, 0);
 }
 
@@ -31,7 +31,7 @@
 }
 
 .btn-resume {
-    color: rgb(21, 0, 255);
+    color: #fff;
     border: 1px solid rgb(21, 0, 255);
 }
 
@@ -40,7 +40,7 @@
 }
 
 .btn-stop {
-    color: red;
+    color: #fff;
     border: 1px solid red;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .btn-reset {
-    color: rgb(255, 255, 0);
+    color: #fff;
     border: 1px solid rgb(255, 255, 0);
 }
 
